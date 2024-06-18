@@ -1,0 +1,89 @@
+
+/* Quy tắc CSS cho điện thoại di động (kích thước màn hình <= 767px) */
+@media (max-width: 767px) {
+    
+    .log-user-name{
+        display: none;
+       }
+    .Communicate-hotline{
+        padding-left: 10px;
+    }
+    .log-sign{
+        right: 20px;
+        min-width: 200px;
+        top: 35px;
+    }
+    .header-logo__list{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .logo-list__one{
+       display: none;
+
+    }
+    .logo{
+        
+        max-width: 260px;
+        margin: auto;
+        
+    }
+    .logo-list__two{
+        width: var(--width-max);
+    }
+    .link-logo__two{
+        padding-left: 18%;
+    }
+   
+    .logo-list__three{
+        display: none;
+    }
+
+    
+
+   
+    .header-list{
+        display: none;
+    }
+    .header-notice{
+        display: none;
+    }
+   
+
+    .home-slider{
+        margin-left: 20px;
+        width: 100% ;
+        height: 100px;
+    }
+    /* .flower-items{
+        max-width: 183px;} */
+
+    .text-sp{
+        display: none;
+    }
+    .footer-top{
+        display: inline;
+    }
+    
+}
+
+/* Quy tắc CSS cho máy tính bảng (kích thước màn hình từ 768px đến 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .Communicate-hotline{
+        padding-left: 10px;
+    }
+    .logo-list__three{
+        display: none;
+    }
+    .list-slider{
+        width: 100% ;
+        height: 200px;
+    }
+}
+
+/* Quy tắc CSS cho máy tính để bàn (kích thước màn hình >= 1024px) */
+@media (min-width: 1024px) {
+    .log-sign{
+        top:35px
+    }
+}

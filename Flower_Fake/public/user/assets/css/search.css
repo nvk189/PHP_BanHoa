@@ -1,0 +1,123 @@
+
+.header_search{
+    border-bottom: 1px solid #ccc;
+ 
+}
+.name_search{
+    color: #444;
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 26px;
+    margin-bottom: 20px;
+    
+
+}
+.item-search{
+    margin-bottom: 15px;
+}
+.list_search{
+    display: flex;
+}
+h4{
+    color: #444;
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.search_item_input{
+    width: 100%;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.check_input{
+    display: flex;
+}
+.form-check-input:checked {
+    background-color: #e91e63;
+    border-color: #e91e63;
+}
+.chuyenmuc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#chuyenmuc{
+    height: 48px;
+    margin-top: 17px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: none;
+    padding-left: 10px;
+}
+.btn_search{
+    float: left;
+    margin-top: 10px;
+}
+.btn_search p{
+   
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: #ed6b87;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    
+}
+
+.body_search{
+    margin-top: 20px;
+   
+}
+
+.select_search{
+    height: 80px;
+    /* background-color: red; */
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.check_search{
+    height: 30px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ed6b87;
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.check_search i {
+    margin-right: 10px;
+}
+.search_price{
+    display: flex;
+    margin-right: 20px;
+}
+.search_price p{
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #fff;
+}
+
+.search_price select{
+    border-color: #ccc;
+    width: 200px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.search_price select option{
+    border-color: #ccc;
+}
+.search_price select:focus , #chuyenmuc:focus{
+    border-color: #ff87b0;
+    box-shadow: 0 0 0 0.25rem rgb(255 232 240);
+}

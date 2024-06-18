@@ -1,0 +1,1864 @@
+*{
+    box-sizing: border-box;
+}
+.head{
+    background: linear-gradient(#d6fdd9, #ffffff);
+    
+}
+.head>.logo img{
+    width: 40%;
+    padding-top: 5px;
+}
+.head>.hello{
+    line-height: 50px;
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 550;
+    text-shadow:  2px 2px 5px #a9a15a;
+    position: relative;
+}
+.Dangxuat{
+    position: absolute;
+    top:60px;
+    right: 50px;
+    width: 120px;
+    text-align: center;
+    background-color: #d6fdd9;
+    line-height: 30px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px green;
+    display: none;
+}
+.Dangxuat a{
+    text-decoration: none;
+    color:#bd5353;
+    font-weight: bold;
+ }
+.Dangxuat div:hover{
+   background-color: bisque;
+   cursor: pointer;
+}
+
+.head>.hello i{
+   padding-top: 5px;
+   color: #1bc129;
+   padding-left: 5px;
+}
+.clickhh{
+    background-color: #ecf1ec;
+    border-right: 5px solid rgb(248, 235, 208);
+    
+}
+.all{
+    margin-top: 0px;
+   
+}
+.all>.selection{
+    border: 1px solid #ebefeb
+}
+.all>.selection>.search{
+    display: flex;
+   width: 95%;
+   margin: auto;
+   margin-top: 15px;
+}
+.all>.selection>.search> input{
+    width: 85%;
+    border-radius: 2px 0 0 2px;
+    border: 1px solid #95c199 ;
+    line-height: 23px;
+}
+.all>.selection>.search> i{
+    width: 15%;
+    padding: 6px;
+    background-color: #95c199;
+    color: rgb(57, 57, 57);
+    border-radius: 0 2px 2px 0;
+}
+.all>.selection>.management{
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    
+}
+
+.all>.selection>.management>dl>dt:hover{
+   background-color: #eaf9eb;
+}
+.all>.selection>.management>dl{
+    margin: 0;
+    padding: 0;
+   
+}
+.all>.selection>.management>dl>dd{
+    border-top: 1px solid #ebefeb;
+}
+.all>.selection>.management>dl>dd{
+    margin-left: 8%;
+    font-size: 14px;
+    border-left:1px dotted  rgb(207, 153, 87);
+    display: none;
+}
+.all>.selection>.management>dl>dd>span{
+    color:  rgb(207, 153, 87);
+    opacity: 0.5;
+}
+.all>.selection>.management>dl>dt{
+    border-top: 1px solid #ebefeb;
+    padding-left: 5%;
+}
+.all>.selection>.management>dl>dt>i:last-child{
+   
+    float: right;
+    margin-right: 3px;
+    padding-top: 15px;
+}
+
+.all>.selection>.management>dl>dd:hover{
+    background-color: bisque;
+ }
+
+/*  */
+.Details>.home{
+    display: none;
+}
+.Details>.home>.logohome>a{
+    display: flex;
+    justify-content: center;
+}
+.Details>.home>.homehello{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(20, 12, 235);
+}
+.Details>.home>.homett{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    color: #064d0c;
+}
+.Details>.home>.infhome{
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #064d0c;
+    margin-top: 10px;
+}
+.Details>.home>a>#changepww{
+    float: right;
+    margin-right: 30px;
+    background-color: #90ed64;
+    line-height: 30px;
+    border: none;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.Details>.home>a>#changepww:hover{
+    background-color: chocolate;
+}
+.Details>.home>a>#changepww i{
+   padding-right: 3px;
+}
+.Details>.home>.homedetails{
+    display: flex;
+   justify-content: center;
+ }
+ .Details>.home>.homedetails>table{
+     line-height: 30px;
+ }
+ .Details>.home>.homedetails>table tr td:first-child{
+    padding-right: 50px;
+    font-weight: bold;
+}
+.Details>.home>.homedetails>table tr td:last-child{
+    font-size: 14px;
+}
+.all>.Details>.computer_company{
+    display: none;
+}
+.all>.Details>.computer_company>.headerCP{
+    padding-top: 5px;
+    padding-left: 20px;
+    line-height: 30px;
+    box-shadow: 2px 3px 2px 0 rgba(33, 33, 33, 0.3),-2px 0px 2px 0 rgba(33, 33, 33, 0.3);
+}
+.all>.Details>.computer_company>.headerCP button{
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(13, 230, 136);
+    border: none;
+    line-height: 25px;
+    border-radius: 3px;
+    color: rgb(32, 32, 25);
+    font-weight: 500;
+   
+}
+.all>.Details>.computer_company>.searchCP{
+    padding-left: 20px;
+    line-height: 30px;
+    background-color: #dee2de;
+    margin-top: 3px;
+}
+.all>.Details>.computer_company>.searchCPdetail{
+    border-bottom: 1px solid rgb(224, 222, 222);
+    border-right: 1px solid rgb(224, 222, 222);
+    border-top: 1px solid rgb(224, 222, 222);
+
+}
+.all>.Details>.computer_company>.searchCPdetail>.searchCP1{
+    display: flex;
+    width: 50%;
+    padding-top: 20px;
+    margin-left: 20%;
+    line-height: 25px;
+
+}
+.all>.Details>.computer_company>.searchCPdetail>.searchCP1 span{
+    width: 20%;
+    font-weight: 600;
+    color: #1bc129;
+}
+.all>.Details>.computer_company>.searchCPdetail>.searchCP1 input{
+    width: 80%;
+    border: 1px solid rgb(44, 150, 44);
+    border-radius: 3px;
+}
+.all>.Details>.computer_company>.searchCPdetail>.searchCP1 #mota{
+    width: 80%;
+    border: 1px solid rgb(44, 150, 44);
+    border-radius: 3px;
+}
+.all>.Details>.computer_company>.searchCPdetail button{
+    width: 100px;
+    line-height: 25px;
+    margin-left:60.5%;
+    margin-top: 15px;
+    border-radius: 3px;
+    background-color: #04700d;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.all>.Details>.computer_company>.company_details{
+    margin-top: 10px;
+}
+.all>.Details>.computer_company>.company_details>.company_detail1{
+    font-size: 20px;
+    font-weight: bold;
+    color:#07b916;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.all>.Details>.computer_company>.company_details>.company_detail2 table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.all>.Details>.computer_company>.company_details>.company_detail2 >table th{
+   padding: 8px;
+   border: 1px solid black;
+}
+.all>.Details>.computer_company>.company_details>.company_detail2 >table td{
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+.all>.Details>.computer_company>.company_details>.company_detail2 >table td i{
+    margin: 8px;
+    cursor: pointer;
+    color: #07b916;
+}
+.all>.Details>.overview
+{
+   background-color: rgb(241, 239, 239);
+   padding: 20px;
+   padding-right: 50px;
+   display: none;
+}
+.all>.Details>.overview>.overview1
+{
+   
+    margin-left: 20px;
+    border: 1px solid rgb(232, 233, 235);
+    margin-right: 20px;
+  
+}
+.all>.Details>.overview>.overview1>span
+{
+    color: #064d0c;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px; 
+    line-height: 40px;
+    background-color: white;
+}
+.all>.Details>.overview>.overview1>.Bieudo
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    border-top: 2px solid rgb(204, 205, 208);
+    background-color: white;
+}
+.all>.Details>.overview>.overview1>.Bieudo>.bieudo11>i
+{
+    font-size: 22px;
+    border-radius: 50%;
+    color: white;
+    width: 45px;
+    height: 45px;
+    padding-top: 10px;
+    padding-left: 10px;
+   
+}
+.all>.Details>.overview>.overview1>.Bieudo>.bieudo11
+{
+    display: flex;
+   
+}
+.all>.Details>.overview>.overview1>.Bieudo>.bieudo11
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-right: 1px solid silver;
+}
+.all>.Details>.overview>.overview1>.Bieudo>.bieudo11>span
+{
+   margin-left: 5px;
+}
+.all>.Details>.overview>.overview1>.Bieudo>.bieudo1
+{
+   margin-left: 5px;
+}
+.all>.Details>.overview>.overview1>.Bieudo>.bieudo1>i
+{
+   
+    border: 1px solid rgb(37, 163, 242);
+    background-color: rgb(37, 163, 242);
+    
+}
+.all>.Details>.overview>.overview1>.Bieudo>.bieudo1>span>span
+{
+   color: rgb(37, 163, 242)
+}
+.all>.Details>.overview>.overview1>.Bieudo>.bieudo2>i
+{
+  
+    border: 1px solid rgb(37, 242, 181);
+   
+    background-color: rgb(37, 242, 181);
+   
+    padding-left: 13px;
+   
+}
+
+.all>.Details>.overview>.overview1>.Bieudo>.bieudo2>span>span
+{
+    color: rgb(37, 242, 181);
+}
+.all>.Details>.overview>.overview1>.Bieudo>.bieudo3>i
+{
+   
+    border: 1px solid rgb(242, 143, 37);
+   
+    background-color: rgb(242, 143, 37);
+  
+ 
+}
+
+.all>.Details>.overview>.overview1>.Bieudo>.bieudo3>span>span
+{
+    color: rgb(242, 143, 37);
+}
+.all>.Details>.overview>.overview1>.Bieudo>.bieudo4
+{
+    
+}
+.all>.Details>.overview>.overview1>.Bieudo>.bieudo4>i
+{
+  
+    border: 1px solid rgb(242, 85, 37);
+   
+    background-color: rgb(242, 85, 37);
+   padding-left: 8px;
+}
+.all>.Details>.overview>.overview1>.Bieudo>.bieudo4>span>span
+{
+    color: rgb(242, 85, 37);
+}
+.all>.Details>.overview>.overview1>.chooseover
+{
+   line-height: 50px;
+}
+.all>.Details>.overview>.overview1>.chooseover>select
+{
+    margin-left: 20px;
+   height: 25px;
+}
+.all>.Details>.overview>.overview1>.sales
+{
+    background-color: white;
+    display: none;
+  
+}
+
+.all>.Details>.overview>.overview1>.sales_week
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   display: none;
+}
+.all>.Details>.overview>.overview1>.sales_week i
+{
+    font-size: 30px;
+    margin-right: 10px;
+   
+}
+.all>.Details>.overview>.overview1>.sales_week >.week1
+{
+    display: flex;
+    padding: 10px;
+    color: white;
+}
+.all>.Details>.overview>.overview1>.sales_week >.money_week
+{
+   background-color: rgb(60, 174, 245);
+   margin-right: 20px;
+}
+.all>.Details>.overview>.overview1>.sales_week >.product_week
+{
+   background-color: rgb(12, 147, 68);
+   margin-right: 10px;
+   margin-left: 10px;
+}
+.all>.Details>.overview>.overview1>.sales_week >.return_week
+{
+   background-color: rgb(227, 56, 13);
+   margin-left: 20px;
+}
+.all>.Details>.overview>.overview1>.sale_quickly
+{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   background-color: white;
+   padding-top: 20px;
+   
+}
+.all>.Details>.overview>.overview1>.sale_quickly>.sale_quickly1
+{
+  margin-left: 30px;
+  font-size: 18px;
+  border-right: 1px solid rgb(137, 130, 130)
+ 
+}
+.all>.Details>.overview>.overview1>.sale_quickly>.sale_quickly1 i
+{
+  color: rgb(9, 147, 210);
+  margin-right: 5px;
+}
+.all>.Details>.overview>.overview1>.sale_quickly>.sale_quickly1>.sale_pr 
+{
+ display: flex;
+}
+.all>.Details>.overview>.overview1>.sale_quickly>.sale_quickly1>.sale_pr img
+{
+ width: 20%;
+ padding: 20px;
+}
+.all>.Details>.overview>.overview1>.sale_quickly>.sale_quickly1>.sale_pr span
+{
+ padding-top: 6%;
+ font-size: 13px;
+
+ color: #07adb9;
+}
+.all>.Details>.overview>.overview1>.sale_quickly>.sale_quickly2
+{
+  margin-left: 30px;
+  font-size: 18px;
+ 
+}
+.all>.Details>.overview>.overview1>.sale_quickly>.sale_quickly2 i
+{
+  color: rgb(9, 210, 96);
+  margin-right: 5px;
+}
+.all>.Details>.overview>.overview1>.sale_quickly>.sale_quickly2>.sale_pr 
+{
+ display: flex;
+}
+.all>.Details>.overview>.overview1>.sale_quickly>.sale_quickly2>.sale_pr img
+{
+ width: 20%;
+ padding: 20px;
+}
+.all>.Details>.overview>.overview1>.sale_quickly>.sale_quickly2>.sale_pr span
+{
+ padding-top: 6%;
+ font-size: 13px;
+
+ color: #07adb9;
+}
+/* Dongcomputer */
+.all>.Details>.Dongcomputer{
+   display: none;
+}
+.all>.Details>.Dongcomputer>.headerCP{
+    padding-top: 5px;
+    padding-left: 20px;
+    line-height: 30px;
+    box-shadow: 2px 3px 2px 0 rgba(33, 33, 33, 0.3),-2px 0px 2px 0 rgba(33, 33, 33, 0.3);
+}
+.all>.Details>.Dongcomputer>.headerCP button{
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(13, 230, 136);
+    border: none;
+    line-height: 25px;
+    border-radius: 3px;
+    color: rgb(32, 32, 25);
+    font-weight: 500;
+   
+}
+.all>.Details>.Dongcomputer>.searchCP{
+    padding-left: 20px;
+    line-height: 30px;
+    background-color: #dee2de;
+    margin-top: 3px;
+}
+.all>.Details>.Dongcomputer>.searchCPdetail{
+    border-bottom: 1px solid rgb(224, 222, 222);
+    border-right: 1px solid rgb(224, 222, 222);
+    border-top: 1px solid rgb(224, 222, 222);
+
+}
+.all>.Details>.Dongcomputer>.searchCPdetail>.searchCP1{
+    display: flex;
+    width: 50%;
+    padding-top: 20px;
+    margin-left: 20%;
+    line-height: 25px;
+
+}
+.all>.Details>.Dongcomputer>.searchCPdetail>.searchCP1 span{
+    width: 30%;
+    font-weight: 600;
+    color: #1bc129;
+}
+.all>.Details>.Dongcomputer>.searchCPdetail>.searchCP1 input{
+    width: 70%;
+    border: 1px solid rgb(44, 150, 44);
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+}
+.all>.Details>.Dongcomputer>.searchCPdetail>.searchCP1 #mota{
+    width: 80%;
+    border: 1px solid rgb(44, 150, 44);
+    border-radius: 3px;
+}
+.all>.Details>.Dongcomputer>.searchCPdetail button{
+    width: 100px;
+    line-height: 25px;
+    margin-left:60.5%;
+    margin-top: 15px;
+    border-radius: 3px;
+    background-color: #04700d;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.all>.Details>.Dongcomputer>.company_details{
+    margin-top: 10px;
+}
+.all>.Details>.Dongcomputer>.company_details>.company_detail1{
+    font-size: 20px;
+    font-weight: bold;
+    color:#07b916;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.all>.Details>.Dongcomputer>.company_details>.company_detail2 table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.all>.Details>.Dongcomputer>.company_details>.company_detail2 >table th{
+   padding: 8px;
+   border: 1px solid black;
+}
+.all>.Details>.Dongcomputer>.company_details>.company_detail2 >table td{
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+.all>.Details>.Dongcomputer>.company_details>.company_detail2 >table td i{
+    margin: 8px;
+    cursor: pointer;
+    color: #07b916;
+}
+.displayad{
+   
+}
+.display
+{
+    background-color: rgb(22, 22, 23);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    opacity: 0.5;
+    transition: all 1s;
+    transform:scaleY(0);
+    transform-origin: top;
+    
+}
+.ADDD{
+    display: flex;
+    justify-content: center;
+    
+}
+.Addcompany{
+    border: 1px solid slategrey;
+    background-color: white;
+    border-radius: 5px;
+    position:fixed;
+    top: 30px;
+    transition: all 1s;
+    transform:scaleY(0);
+    transform-origin: top;
+}
+.Addcompany>.addcp{
+   width: 100%;
+    border-bottom: 1px solid rgb(191, 201, 212);
+    
+}
+.Addcompany>.addcp span{
+    margin:10px;
+   line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #04700d;
+   
+}
+.Addcompany>.addCP1{
+   width: 80%;
+   display: flex;
+   margin-left: 10%;
+   line-height: 30px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.Addcompany>.addCP1 span{
+    width: 20%;
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .Addcompany>.addCP1 input{
+    width: 80%;
+    border: 1px solid seagreen;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+ }
+.Addcompany>.addCP1 textarea{
+    width: 80%;
+    border: 1px solid seagreen;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+ }
+ .Addcompany> button{
+    float:  right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+ }
+ .Addcompany> #refesh{
+    background-color: #07b916;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+.Addcompany> #agree{
+    background-color: #f04141;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+.Addcompany> #exit{
+   background-color: grey;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+.company_details> #update{
+    line-height: 25px;
+    background-color: #07b916;
+    float: right;
+    margin-right: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    color: white;
+}
+.company_details> #update:hover{
+    background-color: #e2d00d;
+}
+.company_details> #xoaall{
+    line-height: 25px;
+    background-color: #b94807;
+    float: right;
+    margin-right: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    color: white;
+}
+.company_details> #xoaall:hover{
+    background-color: #34e20d;
+}
+.Addcompany>#updatea{
+    background-color: rgb(155, 223, 31);
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Dongmaytinh */
+.AddDongmaytinh{
+    border: 1px solid slategrey;
+    background-color: white;
+    border-radius: 5px;
+    position:fixed;
+    top: 30px;
+    transition: all 1s;
+    transform:scaleY(0);
+    transform-origin: top;
+}
+.AddDongmaytinh>.addcp{
+   width: 100%;
+    border-bottom: 1px solid rgb(191, 201, 212);
+    
+}
+.AddDongmaytinh>.addcp span{
+    margin:10px;
+   line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    color: #04700d;
+   
+}
+.AddDongmaytinh>.addCP1{
+   width: 70%;
+   display: flex;
+   margin-left: 10%;
+   line-height: 30px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.AddDongmaytinh>.addCP1 span{
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .AddDongmaytinh>.addCP1 input{
+    width: 70%;
+    border: 1px solid seagreen;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+ }
+ .AddDongmaytinh>.addCP2{
+    width: 70%;
+    display: flex;
+    margin-left: 10%;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .AddDongmaytinh>.addCP2> input{
+   padding: 5px;
+ }
+ 
+ .AddDongmaytinh>.addCP2 span{
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+ }
+
+
+ .AddDongmaytinh>.addCP1 textarea{
+    width: 70%;
+    border: 1px solid seagreen;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+ }
+ .AddDongmaytinh> button{
+    float:  right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+ }
+ .AddDongmaytinh> #refeshd{
+    background-color: #07b916;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+ .AddDongmaytinh> #agreed{
+    background-color: #f04141;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+ .AddDongmaytinh> #exitd{
+   background-color: grey;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+.AddDongmaytinh>#updatead{
+    background-color: rgb(155, 223, 31);
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+}
+.all>.Details>.Page>.headerCP a{
+    text-decoration: none !important;
+    color: black !important;
+ }
+/* ADD computer */
+.all>.Details>.computer_managememnt{
+    display: none;
+ }
+ .all>.Details>.computer_managememnt>.headerCP{
+     padding-top: 5px;
+     padding-left: 20px;
+     line-height: 30px;
+     box-shadow: 2px 3px 2px 0 rgba(33, 33, 33, 0.3),-2px 0px 2px 0 rgba(33, 33, 33, 0.3);
+ }
+ .all>.Details>.computer_managememnt>.headerCP button{
+     float: right;
+     margin-right: 20px;
+     background-color: rgb(13, 230, 136);
+     border: none;
+     line-height: 25px;
+     border-radius: 3px;
+     color: rgb(32, 32, 25);
+     font-weight: 500;
+    
+ }
+ .all>.Details>.computer_managememnt>.searchCP{
+     padding-left: 20px;
+     line-height: 30px;
+     background-color: #dee2de;
+     margin-top: 3px;
+ }
+ .all>.Details>.computer_managememnt>.searchCPdetail{
+     border-bottom: 1px solid rgb(224, 222, 222);
+     border-right: 1px solid rgb(224, 222, 222);
+     border-top: 1px solid rgb(224, 222, 222);
+ 
+ }
+ .all>.Details>.computer_managememnt>.searchCPdetail>.searchCP1{
+     display: flex;
+     width: 50%;
+     padding-top: 20px;
+     margin-left: 20%;
+     line-height: 25px;
+ 
+ }
+ .all>.Details>.computer_managememnt>.searchCPdetail>.searchCP1 span{
+     width: 30%;
+     font-weight: 600;
+     color: #1bc129;
+ }
+ .all>.Details>.computer_managememnt>.searchCPdetail>.searchCP1 input{
+     width: 70%;
+     border: 1px solid rgb(44, 150, 44);
+     border-radius: 3px;
+     outline: none;
+     padding: 5px;
+ }
+ .all>.Details>.computer_managememnt>.searchCPdetail>.searchCP1 #mota{
+     width: 80%;
+     border: 1px solid rgb(44, 150, 44);
+     border-radius: 3px;
+ }
+ .all>.Details>.computer_managememnt>.searchCPdetail button{
+     width: 100px;
+     line-height: 25px;
+     margin-left:60.5%;
+     margin-top: 15px;
+     border-radius: 3px;
+     background-color: #04700d;
+     border: none;
+     color: white;
+     margin-bottom: 20px;
+ 
+ }
+ .all>.Details>.computer_managememnt>.company_details{
+     margin-top: 10px;
+ }
+ .all>.Details>.computer_managememnt>.company_details>.company_detail1{
+     font-size: 20px;
+     font-weight: bold;
+     color:#07b916;
+     margin-bottom: 10px;
+     padding-left: 30px;
+ }
+ 
+ .all>.Details>.computer_managememnt>.company_details>.company_detail2 table{
+     width: 100%;
+     border: 1px solid black;
+     border-collapse: collapse;
+ }
+ .all>.Details>.computer_managememnt>.company_details>.company_detail2 >table th{
+    padding: 8px;
+    border: 1px solid black;
+ }
+ .all>.Details>.computer_managememnt>.company_details>.company_detail2 >table td{
+     padding: 8px;
+     border: 1px solid black;
+     text-align: center;
+ }
+ .all>.Details>.computer_managememnt>.company_details>.company_detail2 >table td i{
+     margin: 8px;
+     cursor: pointer;
+     color: #07b916;
+ }
+ /*  */
+.Addcomputer{
+    border: 1px solid slategrey;
+    background-color: white;
+    border-radius: 5px;
+    position:fixed;
+    top: 30px;
+    transition: all 1s;
+    transform:scaleY(0);
+    transform-origin: top;
+}
+.Addcomputer>.addcp{
+   width: 100%;
+    border-bottom: 1px solid rgb(191, 201, 212);
+    
+}
+.Addcomputer>.addcp span{
+    margin:10px;
+   line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #04700d;
+   
+}
+.Addcomputer>.addCP1{
+   width: 70%;
+   display: flex;
+   margin-left: 10%;
+   line-height: 30px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.Addcomputer>.addCP1 span{
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .Addcomputer>.addCP1 input{
+    width: 70%;
+    border: 1px solid seagreen;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+ }
+ .Addcomputer>.addCP2 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: auto;
+    margin-bottom: 20px;
+ }
+ 
+ .Addcomputer>.addCP2 span{
+   
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .Addcomputer>.addCP2>.soluong input{
+   width: 25%;
+   height: 25px;
+   border: 1px solid seagreen;
+   border-radius: 3px;
+   outline: none;
+   padding: 5px;
+ }
+ .Addcomputer>.addCP1 textarea{
+    width: 70%;
+    border: 1px solid seagreen;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+ }
+ .Addcomputer> button{
+    float:  right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+ }
+ .Addcomputer> #refesh{
+    background-color: #07b916;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+ .Addcomputer> #agree{
+    background-color: #f04141;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+ .Addcomputer> #exit{
+   background-color: grey;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+ .Addcomputer>#updatea{
+    background-color: rgb(155, 223, 31);
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Provider */
+
+.all>.Details>.provider_managememnt{
+    display: none;
+ }
+ .all>.Details>.provider_managememnt>.headerCP{
+     padding-top: 5px;
+     padding-left: 20px;
+     line-height: 30px;
+     box-shadow: 2px 3px 2px 0 rgba(33, 33, 33, 0.3),-2px 0px 2px 0 rgba(33, 33, 33, 0.3);
+ }
+ .all>.Details>.provider_managememnt>.headerCP button{
+     float: right;
+     margin-right: 20px;
+     background-color: rgb(13, 230, 136);
+     border: none;
+     line-height: 25px;
+     border-radius: 3px;
+     color: rgb(32, 32, 25);
+     font-weight: 500;
+    
+ }
+ .all>.Details>.provider_managememnt>.searchCP{
+     padding-left: 20px;
+     line-height: 30px;
+     background-color: #dee2de;
+     margin-top: 3px;
+ }
+ .all>.Details>.provider_managememnt>.searchCPdetail{
+     border-bottom: 1px solid rgb(224, 222, 222);
+     border-right: 1px solid rgb(224, 222, 222);
+     border-top: 1px solid rgb(224, 222, 222);
+ 
+ }
+ .all>.Details>.provider_managememnt>.searchCPdetail>.searchCP1{
+     display: flex;
+     width: 50%;
+     padding-top: 20px;
+     margin-left: 20%;
+     line-height: 25px;
+ 
+ }
+ .all>.Details>.provider_managememnt>.searchCPdetail>.searchCP1 span{
+     width: 30%;
+     font-weight: 600;
+     color: #1bc129;
+ }
+ .all>.Details>.provider_managememnt>.searchCPdetail>.searchCP1 input{
+     width: 70%;
+     border: 1px solid rgb(44, 150, 44);
+     border-radius: 3px;
+     outline: none;
+     padding: 5px;
+ }
+ .all>.Details>.provider_managememnt>.searchCPdetail>.searchCP1 #mota{
+     width: 80%;
+     border: 1px solid rgb(44, 150, 44);
+     border-radius: 3px;
+ }
+ .all>.Details>.provider_managememnt>.searchCPdetail button{
+     width: 100px;
+     line-height: 25px;
+     margin-left:60.5%;
+     margin-top: 15px;
+     border-radius: 3px;
+     background-color: #04700d;
+     border: none;
+     color: white;
+     margin-bottom: 20px;
+ 
+ }
+ .all>.Details>.provider_managememnt>.company_details{
+     margin-top: 10px;
+ }
+ .all>.Details>.provider_managememnt>.company_details>.company_detail1{
+     font-size: 20px;
+     font-weight: bold;
+     color:#07b916;
+     margin-bottom: 10px;
+     padding-left: 30px;
+ }
+ 
+ .all>.Details>.provider_managememnt>.company_details>.company_detail2 table{
+     width: 100%;
+     border: 1px solid black;
+     border-collapse: collapse;
+ }
+ .all>.Details>.provider_managememnt>.company_details>.company_detail2 >table th{
+    padding: 8px;
+    border: 1px solid black;
+ }
+ .all>.Details>.provider_managememnt>.company_details>.company_detail2 >table td{
+     padding: 8px;
+     border: 1px solid black;
+     text-align: center;
+ }
+ .all>.Details>.provider_managememnt>.company_details>.company_detail2 >table td i{
+     margin: 8px;
+     cursor: pointer;
+     color: #07b916;
+ }
+ /*  */
+.AddProvider{
+    border: 1px solid slategrey;
+    background-color: white;
+    border-radius: 5px;
+    position:fixed;
+    top: 30px;
+    transition: all 1s;
+    transform:scaleY(0);
+    transform-origin: top;
+}
+.AddProvider>.addcp{
+   width: 100%;
+    border-bottom: 1px solid rgb(191, 201, 212);
+    
+}
+.AddProvider>.addcp span{
+    margin:10px;
+   line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #04700d;
+   
+}
+.AddProvider>.addCP1{
+   width: 70%;
+   display: flex;
+   margin-left: 10%;
+   line-height: 30px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.AddProvider>.addCP1 span{
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .AddProvider>.addCP1 input{
+    width: 70%;
+    border: 1px solid seagreen;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+ }
+ .AddProvider>.addCP2 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: auto;
+    margin-bottom: 20px;
+ }
+ 
+ .AddProvider>.addCP2 span{
+   
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .AddProvider>.addCP2>.soluong input{
+   width: 25%;
+   height: 25px;
+   border: 1px solid seagreen;
+   border-radius: 3px;
+   outline: none;
+   padding: 5px;
+ }
+ .AddProvider> button{
+    float:  right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+ }
+ .AddProvider> #refesh{
+    background-color: #07b916;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+ .AddProvider> #agree{
+    background-color: #f04141;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+ .AddProvider> #exit{
+   background-color: grey;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+ .AddProvider>#updatea{
+    background-color: rgb(155, 223, 31);
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+}
+.note{
+    margin-left: 30%;
+}
+
+/* ADD computer */
+.all>.Details>.computer_managememnt{
+    display: none;
+ }
+ .all>.Details>.computer_managememnt>.headerCP{
+     padding-top: 5px;
+     padding-left: 20px;
+     line-height: 30px;
+     box-shadow: 2px 3px 2px 0 rgba(33, 33, 33, 0.3),-2px 0px 2px 0 rgba(33, 33, 33, 0.3);
+ }
+ .all>.Details>.computer_managememnt>.headerCP button{
+     float: right;
+     margin-right: 20px;
+     background-color: rgb(13, 230, 136);
+     border: none;
+     line-height: 25px;
+     border-radius: 3px;
+     color: rgb(32, 32, 25);
+     font-weight: 500;
+    
+ }
+ .all>.Details>.computer_managememnt>.searchCP{
+     padding-left: 20px;
+     line-height: 30px;
+     background-color: #dee2de;
+     margin-top: 3px;
+ }
+ .all>.Details>.computer_managememnt>.searchCPdetail{
+     border-bottom: 1px solid rgb(224, 222, 222);
+     border-right: 1px solid rgb(224, 222, 222);
+     border-top: 1px solid rgb(224, 222, 222);
+ 
+ }
+ .all>.Details>.computer_managememnt>.searchCPdetail>.searchCP1{
+     display: flex;
+     width: 50%;
+     padding-top: 20px;
+     margin-left: 20%;
+     line-height: 25px;
+ 
+ }
+ .all>.Details>.computer_managememnt>.searchCPdetail>.searchCP1 span{
+     width: 30%;
+     font-weight: 600;
+     color: #1bc129;
+ }
+ .all>.Details>.computer_managememnt>.searchCPdetail>.searchCP1 input{
+     width: 70%;
+     border: 1px solid rgb(44, 150, 44);
+     border-radius: 3px;
+     outline: none;
+     padding: 5px;
+ }
+ .all>.Details>.computer_managememnt>.searchCPdetail>.searchCP1 #mota{
+     width: 80%;
+     border: 1px solid rgb(44, 150, 44);
+     border-radius: 3px;
+ }
+ .all>.Details>.computer_managememnt>.searchCPdetail button{
+     width: 100px;
+     line-height: 25px;
+     margin-left:60.5%;
+     margin-top: 15px;
+     border-radius: 3px;
+     background-color: #04700d;
+     border: none;
+     color: white;
+     margin-bottom: 20px;
+ 
+ }
+ .all>.Details>.computer_managememnt>.company_details{
+     margin-top: 10px;
+ }
+ .all>.Details>.computer_managememnt>.company_details>.company_detail1{
+     font-size: 20px;
+     font-weight: bold;
+     color:#07b916;
+     margin-bottom: 10px;
+     padding-left: 30px;
+ }
+ 
+ .all>.Details>.computer_managememnt>.company_details>.company_detail2 table{
+     width: 100%;
+     border: 1px solid black;
+     border-collapse: collapse;
+ }
+ .all>.Details>.computer_managememnt>.company_details>.company_detail2 >table th{
+    padding: 8px;
+    border: 1px solid black;
+ }
+ .all>.Details>.computer_managememnt>.company_details>.company_detail2 >table td{
+     padding: 8px;
+     border: 1px solid black;
+     text-align: center;
+ }
+ .all>.Details>.computer_managememnt>.company_details>.company_detail2 >table td i{
+     margin: 8px;
+     cursor: pointer;
+     color: #07b916;
+ }
+ /*  */
+.Addcomputer{
+    border: 1px solid slategrey;
+    background-color: white;
+    border-radius: 5px;
+    position:fixed;
+    top: 30px;
+    transition: all 1s;
+    transform:scaleY(0);
+    transform-origin: top;
+}
+.Addcomputer>.addcp{
+   width: 100%;
+    border-bottom: 1px solid rgb(191, 201, 212);
+    
+}
+.Addcomputer>.addcp span{
+    margin:10px;
+   line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #04700d;
+   
+}
+.Addcomputer>.addCP1{
+   width: 70%;
+   display: flex;
+   margin-left: 10%;
+   line-height: 30px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.Addcomputer>.addCP1 span{
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .Addcomputer>.addCP1 input{
+    width: 70%;
+    border: 1px solid seagreen;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+ }
+ .Addcomputer>.addCP2 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: auto;
+    margin-bottom: 20px;
+ }
+ 
+ .Addcomputer>.addCP2 span{
+   
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .Addcomputer>.addCP2>.soluong input{
+   width: 25%;
+   height: 25px;
+   border: 1px solid seagreen;
+   border-radius: 3px;
+   outline: none;
+   padding: 5px;
+ }
+ .Addcomputer>.addCP1 textarea{
+    width: 70%;
+    border: 1px solid seagreen;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+ }
+ .Addcomputer> button{
+    float:  right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+ }
+ .Addcomputer> #refesh{
+    background-color: #07b916;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+ .Addcomputer> #agree{
+    background-color: #f04141;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+ .Addcomputer> #exit{
+   background-color: grey;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+ .Addcomputer>#updatea{
+    background-color: rgb(155, 223, 31);
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Invoice Input */
+
+.all>.Details>.invoice_input{
+    display: none;
+ }
+ .all>.Details>.invoice_input>.headerCP{
+     padding-top: 5px;
+     padding-left: 20px;
+     line-height: 30px;
+     box-shadow: 2px 3px 2px 0 rgba(33, 33, 33, 0.3),-2px 0px 2px 0 rgba(33, 33, 33, 0.3);
+ }
+ .all>.Details>.invoice_input>.headerCP button{
+     float: right;
+     margin-right: 20px;
+     background-color: rgb(13, 230, 136);
+     border: none;
+     line-height: 25px;
+     border-radius: 3px;
+     color: rgb(32, 32, 25);
+     font-weight: 500;
+    
+ }
+ .all>.Details>.invoice_input>.searchCP{
+     padding-left: 20px;
+     line-height: 30px;
+     background-color: #dee2de;
+     margin-top: 3px;
+ }
+ .all>.Details>.invoice_input>.searchCPdetail{
+     border-bottom: 1px solid rgb(224, 222, 222);
+     border-right: 1px solid rgb(224, 222, 222);
+     border-top: 1px solid rgb(224, 222, 222);
+ 
+ }
+ .all>.Details>.invoice_input>.searchCPdetail>.searchCP1{
+     display: flex;
+     width: 50%;
+     padding-top: 20px;
+     margin-left: 20%;
+     line-height: 25px;
+ 
+ }
+ .all>.Details>.invoice_input>.searchCPdetail>.searchCP1 span{
+     width: 30%;
+     font-weight: 600;
+     color: #1bc129;
+ }
+ .all>.Details>.invoice_input>.searchCPdetail>.searchCP1 input{
+     width: 70%;
+     border: 1px solid rgb(44, 150, 44);
+     border-radius: 3px;
+     outline: none;
+     padding: 5px;
+ }
+ .all>.Details>.invoice_input>.searchCPdetail>.searchCP1 #mota{
+     width: 80%;
+     border: 1px solid rgb(44, 150, 44);
+     border-radius: 3px;
+ }
+ .all>.Details>.invoice_input>.searchCPdetail button{
+     width: 100px;
+     line-height: 25px;
+     margin-left:60.5%;
+     margin-top: 15px;
+     border-radius: 3px;
+     background-color: #04700d;
+     border: none;
+     color: white;
+     margin-bottom: 20px;
+ 
+ }
+ .all>.Details>.invoice_input>.company_details{
+     margin-top: 10px;
+ }
+ .all>.Details>.invoice_input>.company_details>.company_detail1{
+     font-size: 20px;
+     font-weight: bold;
+     color:#07b916;
+     margin-bottom: 10px;
+     padding-left: 30px;
+ }
+ 
+ .all>.Details>.invoice_input>.company_details>.company_detail2 table{
+     width: 100%;
+     border: 1px solid black;
+     border-collapse: collapse;
+ }
+ .all>.Details>.invoice_input>.company_details>.company_detail2 >table th{
+    padding: 8px;
+    border: 1px solid black;
+ }
+ .all>.Details>.invoice_input>.company_details>.company_detail2 >table td{
+     padding: 8px;
+     border: 1px solid black;
+     text-align: center;
+ }
+ .all>.Details>.invoice_input>.company_details>.company_detail2 >table td i{
+     margin: 8px;
+     cursor: pointer;
+     color: #07b916;
+ }
+ /*  */
+ .AddInvoiceInput{
+    border: 1px solid slategrey;
+    background-color: white;
+    border-radius: 5px;
+    position:fixed;
+    top: 10px;
+    transition: all 1s;
+    transform:scaleY(0);
+    transform-origin: top;
+}
+.AddInvoiceInput>.addcp{
+   width: 100%;
+    border-bottom: 1px solid rgb(191, 201, 212);
+    
+}
+.AddInvoiceInput>.addcp span{
+    margin:10px;
+   line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #04700d;
+   
+}
+.AddInvoiceInput>.addCP1{
+   width: 70%;
+   display: flex;
+   margin-left: 10%;
+   line-height: 30px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.AddInvoiceInput>.addCP1 span{
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .AddInvoiceInput>.addCP1 input{
+    width: 70%;
+    border: 1px solid seagreen;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+ }
+ .AddInvoiceInput>.addCP2 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: auto;
+    margin-bottom: 20px;
+ }
+ 
+ .AddInvoiceInput>.addCP2 span{
+   
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .AddInvoiceInput>.addCP2>.soluong input{
+   width: 25%;
+   height: 25px;
+   border: 1px solid seagreen;
+   border-radius: 3px;
+   outline: none;
+   padding: 5px;
+ }
+ .AddInvoiceInput> button{
+    float:  right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+ }
+ .AddInvoiceInput> #refesh{
+    background-color: #07b916;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+ .AddInvoiceInput> #agree{
+    background-color: #f04141;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+ .AddInvoiceInput> #exit{
+   background-color: grey;
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+ }
+ .AddInvoiceInput>#updatea{
+    background-color: rgb(155, 223, 31);
+    border: none;
+    line-height: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+/*  */
+.all>.Details>.Uniconfirmed_Invoice{
+    display: none;
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.headerCP{
+     padding-top: 5px;
+     padding-left: 20px;
+     line-height: 30px;
+     box-shadow: 2px 3px 2px 0 rgba(33, 33, 33, 0.3),-2px 0px 2px 0 rgba(33, 33, 33, 0.3);
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.headerCP button{
+     float: right;
+     margin-right: 20px;
+     background-color: rgb(13, 230, 136);
+     border: none;
+     line-height: 25px;
+     border-radius: 3px;
+     color: rgb(32, 32, 25);
+     font-weight: 500;
+    
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.searchCP{
+     padding-left: 20px;
+     line-height: 30px;
+     background-color: #dee2de;
+     margin-top: 3px;
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.searchCPdetail{
+     border-bottom: 1px solid rgb(224, 222, 222);
+     border-right: 1px solid rgb(224, 222, 222);
+     border-top: 1px solid rgb(224, 222, 222);
+ 
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.searchCPdetail>.searchCP1{
+     display: flex;
+     width: 50%;
+     padding-top: 20px;
+     margin-left: 20%;
+     line-height: 25px;
+ 
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.searchCPdetail>.searchCP1 span{
+     width: 30%;
+     font-weight: 600;
+     color: #1bc129;
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.searchCPdetail>.searchCP1 input{
+     width: 70%;
+     border: 1px solid rgb(44, 150, 44);
+     border-radius: 3px;
+     outline: none;
+     padding: 5px;
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.searchCPdetail>.searchCP1 #mota{
+     width: 80%;
+     border: 1px solid rgb(44, 150, 44);
+     border-radius: 3px;
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.searchCPdetail button{
+     width: 100px;
+     line-height: 25px;
+     margin-left:60.5%;
+     margin-top: 15px;
+     border-radius: 3px;
+     background-color: #04700d;
+     border: none;
+     color: white;
+     margin-bottom: 20px;
+ 
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.company_details{
+     margin-top: 10px;
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.company_details>.company_detail1{
+     font-size: 20px;
+     font-weight: bold;
+     color:#07b916;
+     margin-bottom: 10px;
+     padding-left: 30px;
+ }
+ 
+ .all>.Details>.Uniconfirmed_Invoice>.company_details>.company_detail2 table{
+     width: 100%;
+     border: 1px solid black;
+     border-collapse: collapse;
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.company_details>.company_detail2 >table th{
+    padding: 8px;
+    border: 1px solid black;
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.company_details>.company_detail2 >table td{
+     padding: 8px;
+     border: 1px solid black;
+     text-align: center;
+     font-size: 13px;
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.company_details>.company_detail2 >table td i{
+     margin: 8px;
+     cursor: pointer;
+     color: #07b916;
+ }
+ .all>.Details>.Uniconfirmed_Invoice>.company_details>.company_detail2 >table td i:hover{
+    color: #f74d0a;
+}
+ .TimKIEM:hover{
+     background-color: rgb(0, 140, 255) !important;
+ }
+#Addnew:hover{
+    background-color: rgb(74, 216, 248) !important;
+}
+.company_detail2>table tr:hover{
+    background-color: rgb(235, 251, 239);
+}
+.company_detail2>table tr:first-child:hover{
+    background-color: white;
+}
+#exitd:hover{
+    background-color: #04700d;
+}
+#agreed:hover{
+    background-color: #30a4f1;
+}
+#refeshd:hover{
+    background-color: #b94807;
+}
+#updatead:hover{
+    background-color: darkorange;
+}
+.headerCP a{
+   cursor: pointer;
+}
+
+.chitiet>table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 14px;
+    margin: auto;
+  }
+  .chitiet>table td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+ 
+.chitiet{
+    margin-bottom: 20px;
+    display: none;
+}
+.chitiet>table tr:first-child th:first-child {
+   color: red;
+   font-size: 16px;
+  }
+  .chitiet>table tr th{
+   color: rgb(16, 16, 191);
+   }
+.chitiet>table tr td{
+text-align: center;
+}
+.XemChiTiet button{
+    background-color: #04700d;
+    color: white;
+    border: none;
+    line-height: 25px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+}
+.XemChiTiet button i{
+   padding-top: 3%;
+   margin-left: 5px;
+}
+
+

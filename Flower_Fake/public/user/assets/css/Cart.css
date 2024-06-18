@@ -1,0 +1,25 @@
+
+table {
+    width: 100%; /* Bảng chiếm toàn bộ chiều rộng của container cha */
+    border-collapse: collapse; /* Loại bỏ khoảng cách giữa ô */
+}
+
+table th, table td {
+    border: 1px solid #ccc; /* Đường viền cho ô */
+    padding: 5px; /* Khoảng cách bên trong ô */
+    text-align: center; /* Căn giữa nội dung của ô */
+}
+
+thead {
+    background-color: #fff; /* Màu nền cho phần header */
+    color: black; /* Màu chữ trong header */
+    font-weight: bold; /* Văn bản in đậm trong header */
+}
+
+thead td {
+    padding: 15px; /* Khoảng cách bên trong ô header */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Màu nền xen kẽ cho hàng chẵn */
+}
